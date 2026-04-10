@@ -36,6 +36,7 @@ fastboot flash boot boot.img
 After flashing the boot image, reboot into **Recovery** mode using the hardware key combo (usually `Volume Up + Power`) or the command:
 
 ```bash
+fastboot reboot fastboot
 fastboot reboot recovery
 ```
 

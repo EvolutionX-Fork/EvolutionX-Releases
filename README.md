@@ -36,6 +36,7 @@ fastboot flash boot boot.img
 Sau khi flash boot thành công, khởi động máy vào chế độ **Recovery** bằng tổ hợp phím phần cứng (thường là `Volume Up + Power`) hoặc dùng lệnh:
 
 ```bash
+fastboot reboot fastboot
 fastboot reboot recovery
 ```
 
